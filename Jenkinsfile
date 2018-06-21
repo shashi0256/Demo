@@ -75,4 +75,4 @@ void withMavenEnv(List envVars = [], def body) {
     withEnv(mvnEnv) {
         body.call()
     }
-}
+
